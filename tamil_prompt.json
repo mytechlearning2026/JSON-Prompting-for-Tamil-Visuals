@@ -1,0 +1,116 @@
+{
+  "project": {
+    "title": "Bharatanatyam Heritage",
+    "framework": "SCALE (Subject, Composition, Action, Location, Esthetic)",
+    "purpose": "Generate a consistent set of Bharatanatyam heritage images and a short cinematic image-to-video sequence.",
+    "visual_consistency": {
+      "dancer_identity": "Keep the same adult Indian Bharatanatyam dancer, facial features, hairstyle, makeup, jewelry, and costume across all images and video shots.",
+      "costume": "Traditional vibrant red and gold silk Bharatanatyam costume with pleated fan, temple jewelry, gold waist belt, jhumka earrings, ankle bells (salangai), jasmine flowers, and a decorated bun.",
+      "heritage_setting": "Ancient Tamil Nadu Dravidian temple courtyard with carved granite pillars, stone flooring, brass kuthu vilakku lamps, and a sacred cultural atmosphere.",
+      "quality": "Photorealistic, cinematic, highly detailed, anatomically accurate, authentic classical dance styling."
+    }
+  },
+  "image_prompts": [
+    {
+      "id": "image_01_divine_opening_pose",
+      "title": "Divine Dance Pose",
+      "SCALE": {
+        "Subject": "A graceful adult Indian Bharatanatyam classical dancer representing the rich cultural heritage of Tamil Nadu. She wears a traditional vibrant red and gold silk Bharatanatyam costume with a beautifully arranged pleated fan, exquisite temple jewelry, golden jhumka earrings, an elegant temple necklace, a traditional waist belt, ankle bells (salangai), jasmine flowers adorning her hair, and a decorated bun. Traditional Bharatanatyam makeup with expressive eyes.",
+        "Composition": "Full-body cinematic portrait with the dancer centered in the frame. Her body is balanced in authentic Aramandi posture, knees bent, feet turned outward, and hands held in a classical mudra. The costume pleats are clearly visible. A majestic Dravidian temple with carved stone pillars and a Nataraja sculpture forms the background. Symmetrical framing, realistic proportions, visual depth, and detailed textures.",
+        "Action": "The dancer holds a poised traditional Bharatanatyam opening stance with a calm devotional expression, elegant hand mudras, and a sense of readiness for rhythmic performance.",
+        "Location": "An ancient Tamil Nadu temple courtyard inspired by the heritage temples of Thanjavur and Chidambaram, featuring intricately carved granite pillars, stone flooring, brass oil lamps, and sacred architectural details.",
+        "Esthetic": "Ultra-realistic Indian cultural photography, rich red and gold palette, warm golden temple lighting, soft sunlight rays, intricate silk and jewelry textures, devotional and majestic mood, professional cinematic photography, 8K detail."
+      },
+      "image_settings": {
+        "aspect_ratio": "9:16",
+        "shot_type": "Full-body portrait",
+        "style": "Photorealistic cinematic heritage image"
+      },
+      "negative_prompt": "Extra fingers, distorted hands, incorrect mudras, incorrect Aramandi posture, deformed anatomy, asymmetrical eyes, inconsistent face, modern clothing, inaccurate costume, floating jewelry, blurry details, low resolution, cartoon style, text, watermark, logo."
+    },
+    {
+      "id": "image_02_expressive_abhinaya",
+      "title": "Expressive Abhinaya",
+      "SCALE": {
+        "Subject": "The same adult Indian Bharatanatyam dancer from Image 1, maintaining identical facial features, red and gold silk costume, temple jewelry, jasmine-adorned bun, makeup, and ankle bells.",
+        "Composition": "A medium-to-full-body cinematic frame emphasizing the dancer's expressive face, eyes, and hand gestures. The dancer is positioned slightly off-center against carved temple pillars and softly glowing brass lamps. Hands and fingers are fully visible and anatomically correct. Rich depth of field with a softly detailed temple background.",
+        "Action": "The dancer performs expressive Bharatanatyam abhinaya, using precise classical hand mudras, expressive eyes, and a graceful storytelling expression. The pose conveys devotion, emotion, and the traditional narrative art of Bharatanatyam.",
+        "Location": "The same ancient Tamil Nadu temple courtyard, with Dravidian stone pillars, warm brass lamps, and a sacred heritage atmosphere.",
+        "Esthetic": "Photorealistic cinematic portraiture, warm gold highlights, rich red silk, detailed temple jewelry, expressive and graceful mood, realistic skin and fabric texture, high-resolution cultural photography."
+      },
+      "image_settings": {
+        "aspect_ratio": "9:16",
+        "shot_type": "Medium-to-full-body portrait",
+        "style": "Photorealistic cinematic heritage image"
+      },
+      "negative_prompt": "Extra fingers, malformed hands, incorrect mudras, exaggerated facial expression, distorted eyes, inconsistent costume or face, unnatural anatomy, blurry face, cartoon style, text, watermark, logo."
+    },
+    {
+      "id": "image_03_dynamic_nataraja_inspired_pose",
+      "title": "Dynamic Classical Dance Pose",
+      "SCALE": {
+        "Subject": "The same adult Indian Bharatanatyam dancer with consistent face, traditional red and gold silk costume, gold temple ornaments, salangai ankle bells, jasmine flowers, and traditional makeup.",
+        "Composition": "Full-body dynamic composition capturing a powerful yet elegant classical dance pose. The dancer is centered with ample space around the arms and legs, showing the complete costume and posture. Temple architecture and a Nataraja sculpture appear in the background without overpowering the dancer.",
+        "Action": "The dancer performs a dramatic Bharatanatyam movement inspired by the energy and grace of Nataraja, with a strong balanced stance, precise hand mudras, controlled arm extension, expressive eyes, and rhythmic footwork. Keep the pose physically plausible and true to classical dance technique.",
+        "Location": "An expansive stone courtyard of a traditional Dravidian temple in Tamil Nadu, with carved granite columns, brass lamps, and subtle golden sunlight.",
+        "Esthetic": "Cinematic photorealism, dramatic warm golden lighting, vibrant red and gold tones, detailed silk pleats in motion, elegant devotional energy, professional dance photography, high resolution."
+      },
+      "image_settings": {
+        "aspect_ratio": "9:16",
+        "shot_type": "Full-body action portrait",
+        "style": "Photorealistic cinematic heritage image"
+      },
+      "negative_prompt": "Impossible body pose, incorrect Bharatanatyam technique, extra limbs, extra fingers, distorted hands, broken joints, inconsistent face, costume changes, floating ornaments, motion blur obscuring subject, cartoon style, text, watermark, logo."
+    },
+    {
+      "id": "image_04_heritage_namaskaram",
+      "title": "Heritage Finale Namaskaram",
+      "SCALE": {
+        "Subject": "The same adult Indian Bharatanatyam dancer with the established red and gold silk costume, temple jewelry, jasmine-adorned bun, salangai, and consistent facial appearance.",
+        "Composition": "Full-body centered portrait of the dancer in a graceful final Namaskaram pose, hands joined respectfully, against a majestic temple courtyard. Glowing brass lamps frame the scene, and golden sunlight softly illuminates the dancer. Balanced symmetrical composition with clear visibility of the dancer's full body.",
+        "Action": "The dancer concludes the performance with a graceful devotional Namaskaram, holding a serene expression and a respectful classical finishing pose.",
+        "Location": "An ancient Tamil Nadu Dravidian temple courtyard with granite stone flooring, carved pillars, brass kuthu vilakku lamps, and a sacred peaceful atmosphere.",
+        "Esthetic": "Divine, elegant, photorealistic cinematic heritage photography, soft golden-hour light, rich red and gold palette, intricate costume and jewelry details, serene devotional mood, 8K quality."
+      },
+      "image_settings": {
+        "aspect_ratio": "9:16",
+        "shot_type": "Full-body final portrait",
+        "style": "Photorealistic cinematic heritage image"
+      },
+      "negative_prompt": "Incorrect joined hands, malformed fingers, distorted anatomy, inconsistent face, costume variation, unnatural expression, blurry image, modern objects, cartoon style, text, watermark, logo."
+    }
+  ],
+  "video_prompt": {
+    "id": "video_01_bharatanatyam_heritage",
+    "title": "Bharatanatyam Heritage — 15-Second Cinematic Short",
+    "workflow": "Image-to-video. Use the four generated images as visual references/keyframes in sequence. If the tool accepts only one reference image, use Image 1 as the primary reference and provide the remaining images as additional references where supported.",
+    "SCALE": {
+      "Subject": "The same adult Indian Bharatanatyam dancer shown in the reference images, wearing the exact same red and gold silk costume, temple jewelry, waist belt, salangai ankle bells, jasmine flowers, decorated bun, and traditional makeup. Preserve identity and costume continuity throughout the video.",
+      "Composition": "Vertical 9:16 cinematic video. Begin with a full-body wide shot in the temple courtyard, move into a medium shot highlighting abhinaya and mudras, capture a dynamic full-body classical dance pose, and finish with a centered full-body Namaskaram. Keep the dancer fully in frame during full-body shots and maintain stable visual continuity.",
+      "Action": "The dancer performs a short, graceful Bharatanatyam sequence: begins in a poised Aramandi opening stance, transitions into expressive abhinaya with precise hand mudras and eye movements, performs a controlled dynamic classical pose with rhythmic footwork, and concludes with a respectful Namaskaram. Movements must be fluid, physically plausible, and authentic to Bharatanatyam.",
+      "Location": "An ancient Tamil Nadu Dravidian temple courtyard inspired by Thanjavur and Chidambaram heritage architecture. Include carved granite pillars, stone flooring, brass kuthu vilakku lamps, and a subtle Nataraja sculpture in the background. Maintain the same location throughout.",
+      "Esthetic": "Photorealistic cinematic Indian heritage film, rich red and gold palette, warm golden-hour lighting, soft volumetric sun rays, highly detailed silk textures and temple jewelry, divine devotional mood, refined professional cinematography, 4K visual quality."
+    },
+    "video_settings": {
+      "duration_seconds": 15,
+      "aspect_ratio": "9:16",
+      "frame_rate": 24,
+      "resolution": "4K",
+      "visual_style": "Photorealistic cinematic traditional Indian heritage",
+      "motion_intensity": "Medium, graceful and controlled"
+    },
+    "motion": {
+      "camera_movement": "Slow cinematic dolly-in at the opening, gentle stable lateral movement during the dance, subtle push-in for abhinaya, and a steady final framing for Namaskaram. Avoid fast orbiting or shaky camera movements.",
+      "character_movement": "Graceful Bharatanatyam movement with correct Aramandi posture, precise hand mudras, expressive eyes, natural rhythmic footwork, realistic costume pleat movement, and anatomically accurate transitions.",
+      "environmental_movement": "Brass oil lamps flicker gently, soft sunlight rays and dust particles remain subtle, jasmine flowers and silk fabric move naturally with the dancer.",
+      "transitions": "Smooth match cuts or gentle cinematic transitions between the provided reference poses. Preserve face, costume, jewelry, lighting, and temple setting.",
+      "ending": "Hold the final Namaskaram pose for a brief moment as warm golden light illuminates the dancer and temple courtyard."
+    },
+    "audio": {
+      "background_music": "Original traditional South Indian Carnatic-inspired instrumental music featuring veena, flute, mridangam, and nattuvangam rhythmic syllables. Do not imitate a specific copyrighted recording.",
+      "sound_effects": "Subtle salangai ankle bells synchronized naturally with the dancer's footwork.",
+      "mood": "Devotional, graceful, majestic, culturally rich"
+    },
+    "negative_prompt": "Face morphing, identity changes, costume changes, jewelry changing shape, extra limbs, extra fingers, malformed hands, incorrect mudras, broken anatomy, unnatural dance movements, foot sliding, jitter, flicker, sudden camera jumps, shaky camera, excessive motion blur, background warping, distorted temple pillars, cartoon style, text artifacts, subtitles, watermark, logo."
+  }
+}
